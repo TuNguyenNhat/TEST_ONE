@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/*Phan Dau*/
+.menu{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu img{
+    flex: 1;
+}
+
+.menu ul{
+    flex: 6;
+}
+
+.menu-ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu-li{
+    list-style: none;
+    display: block;
+}
+
+.menu-li a i{
+    transform: rotate(180deg);
+}
+
+.menu-a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(102, 101, 101);
+}
+
+.menu-li :hover{
+    color: rgb(21, 209, 90);
+}
+
+.banner{
+    margin-top: 20px;
+}
+
+/*Phan Than*/
+/*Phan Than Tren*/
+.thantren{
+    background-color: rgba(239, 237, 237, 0.59);
+    margin-top: 10px;
+}
+
+.tieude{
+    text-align: center;
+    color: rgb(102, 101, 101);
+    text-transform: uppercase;
+}
+
+.tieude h1{
+    padding-top: 15px;
+}
+
+.dongke{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(21, 209, 90);
+    margin-top: 10px;
+    margin-bottom: 35px;
+    font-size: 10px;
+}
+
+.dongkeben{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(21, 209, 90);
+    margin: 5px;
+}
+
+.icon{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-size: 20px;
+    transform: rotate(45deg);
+}
+
+.anhgioithieu{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.anhgioithieu img{
+    flex: 1;
+}
+
+.anhgioithieu div{
+    flex: 1;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    color: rgb(102, 101, 101);
+}
+
+.thanduoi{
+    margin-top: 20px;
+}
+
+.sanpham{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.khungsanpham{
+    background-color: rgba(239, 237, 237, 0.59);
+    text-align: center;
+    border: 1px solid rgba(212, 212, 212, 0.59);
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+
+.khungsanpham img{
+    margin-bottom: 30px;
+}
+
+.khungsanpham div{
+    color: red;
+}
+
+.giaca{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.db{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.db del{
+    font-size: 10px;
+}
+
+.khungsanpham button{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+button:hover{
+    background-color: rgb(21, 209, 90);
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(239, 237, 237, 0.59);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thongtinlienhe-phai p{
+    padding: 15px;
+}
+
+.footer-items{
+    color:rgb(102, 101, 101);
+}
+
+.tieude{
+    color: rgb(102, 101, 101);
+    text-transform: uppercase;
+}
